@@ -1,0 +1,3 @@
+break statement to exit the loop
+Ordering::Equal =>{ println!("Guess number is equal to secret number : {secret_number} you win 🗿👍");
+break;},

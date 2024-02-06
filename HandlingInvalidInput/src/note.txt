@@ -1,0 +1,4 @@
+The underscore, _, is a catchall value; 
+in this example, we’re saying we want to
+ match all Err values, no matter what 
+ information they have inside them.
