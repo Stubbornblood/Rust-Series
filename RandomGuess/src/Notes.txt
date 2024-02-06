@@ -1,0 +1,15 @@
+First we add another use statement, 
+bringing a type called std::cmp::Ordering into scope 
+from the standard library. The Ordering type 
+is another enum and has the variants Less, Greater, 
+and Equal. These are the three outcomes that are possible
+when you compare two values.
+
+We create a variable named guess. But wait, 
+the program already have a variable named guess?
+It does, but helpfully Rust allows us to shadow 
+the previous value of guess with a new one. Shadowing 
+lets us reuse the guess variable name rather than 
+forcing us to create two unique variables, such as
+guess_str and guess
+

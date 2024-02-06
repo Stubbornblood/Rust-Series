@@ -1,1 +1,0 @@
-By using a thread-local generator, Rust ensures that each thread has its own independent source of randomness
