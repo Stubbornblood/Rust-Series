@@ -1,0 +1,2 @@
+To get the individual values out of a tuple, we can use pattern matching to destructure a tuple value
+We can also access a tuple element directly by using a period (.) followed by the index of the value we want to access
