@@ -1,0 +1,9 @@
+Rust have three kind of loop :
+loop , while , for 
+
+Note: the semicolon after break counter * 2 is 
+technically optional. break is very similar to return,
+in that both can optionally take an expression as an argument, 
+both cause a change in control flow. Code after a break or 
+return is never executed, so the Rust compiler treats a break
+ expression and a return expression as having the value unit, or ().
