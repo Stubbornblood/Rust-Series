@@ -1,0 +1,15 @@
+Ownership in rust : 
+Each value in Rust is "owned" by a variable. Ownership is transferred through
+assignments or passing values to functions
+
+let x = 5; //Here,the variable 'x' owns the value '5'
+let y = x; //Ownership of '5' is moved from 'x' to 'y'
+
+Single Ownership: At any given time,there can only be one owner of a value.
+This prevents issues like double-free errors that can occurs in language with 
+manual memory management
+
+Scope and Dropping : When the owner of a value goes out of scope,Rust 
+automatically drops the value. This happens at the end of the block where
+the owner is declared.The 'drop' function can also be used explicitly to 
+releasse resources associated with a value
