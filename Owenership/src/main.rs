@@ -1,9 +1,10 @@
-fn main(){
-    let n = 5;
-    let y = plus_one(n);
-    println!("The value of y is : {y}");
+fn ready(y:bool){
+    if y{
+        println!("y is true!");
+    }
 }
 
-fn plus_one(x:i32)->i32{
-    return x + 1;
+fn main(){
+    let x = true;
+    ready(x);
 }
